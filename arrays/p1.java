@@ -2,7 +2,7 @@ public class p1 {
     
 
         public static void fun(int arr[] ){
-            int tp=0 , sum;
+            int  , sum;
             for( int i =0 ; i<arr.length-1 ; i++){
 
                 for( int j= i ; j<arr.length ; j++){
