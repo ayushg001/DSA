@@ -8,7 +8,7 @@ public class bus_and_sell_stock_problem {
         for( int i =0; i < nums.length ; i++ ){
             sell_price=nums[i];
             if (buy_price < sell_price) {
-                int profit = sell_price - buy_price;         // todays profit
+                int profit = sell_price - buy_price;         // todays profi
                 max_profit = Math.max(max_profit, profit);
             } else {
                 buy_price = sell_price;
