@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class Create2DArray {
+// package 2d_array;
+
+public class Create2DArra {
 
 
     public static boolean search( int matrix[][] , int key){
