@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Anagram {
     public static void main(String[] args) {
         String str1 = "earth";
-        String str2 = "hoart";
+        String str2 = "heart";
          
         //covert to lowercase
         str1 = str1.toLowerCase();
