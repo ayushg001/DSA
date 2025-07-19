@@ -69,6 +69,20 @@ public class practice_LL {
         size--;
         return val;
     }
+    public void removeLast(){
+        if( size==0){
+            System.out.println("LL is already empty");
+        } else if( size ==1){
+            head= null;
+            size=0;
+        }
+        Node temp = head;    
+        for( int i = 0 ; i< size-2 ; i ++ ){
+            temp = temp.next;
+        }
+        temp.next=null;
+        size--;
+    }
     public void print(){
         Node temp = head;
         while(temp!=null){
@@ -92,6 +106,10 @@ public class practice_LL {
 
         ll.removeFirst();
          ll.print();
+        System.out.println(ll.size);
+
+        ll.removeLast();
+        ll.print();
         System.out.println(ll.size);
     }
 }
